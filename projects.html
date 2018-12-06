@@ -14,7 +14,7 @@
 </head>
 
 <body>
-
+<button class="skip-to-main" onclick="(_ => document.querySelector('.main-content').focus())()">Skip to Main Content</button>
 
 <header class="header">
     <div class="header-logo">
@@ -39,8 +39,7 @@
     <h1>CHI Student Design</h1>
     
     <div class = "project_content">
-        <h2>CHI Student Competition Project</h3>
-        <h3><a href="#solution" class = "jump">TL;DR, show me the solution</a></h2>
+        <h2 class="main-content" tabindex="-1">CHI Student Competition Project</h2>
         <p>Student-athletes usually experience psychological issues during their injured period, which play important roles in their rehabilitation. The three major challenges are loss of identity, isolation, and inability to understand and communicate their recovery progress between checkups. To assist the injured athletes, we propose AthleteJuvo, a collaborative gaming solution incorporating routine rehabilitation exercises, team competition, and social supports. Specifically, AthleteJuvo utilizes the competitive nature of athletes to gamify the rehabilitation process. Athletes rebuild their identity by forming a team with other injured athletes to compete with their rival schools. AthleteJuvo also helps injured athletes meet nearby injured athletes and connect back with their non-injured team members by sending challenges. To aid in recovery, AthleteJuvo uses wearable sensing fabric which collect and report movement data to the athlete’s therapist.</p>
         <h2>Problem Overview</h2>
         <h3>Injury is 1% physical and 99% psychological</h3>
@@ -63,7 +62,6 @@
             </div>
         </div>
         <h2>Solution at a Glance</h2>
-        <a id="solution"></a>
         <p>A community for injured athletes to talk, meet up and share information.
         Our goal is to help injured athletes overcome the psychological issues and strengthen the social support and information they need during their rehabilitation.</p>
     </div>
